@@ -1,4 +1,4 @@
-Prerequisites:
+# Prerequisites:
 
 - Node.Js v20.10.0
 - npm v10.4.0
@@ -18,8 +18,8 @@ build mode:
 
 
 
-API DOCUMENTATION
-
+# API DOCUMENTATION
+```
 @authenticated(JWT)
 POST /api/lists     -> Creates new list.
 body: {
@@ -73,3 +73,4 @@ params:{
 body: {
     "flag": string(ENUM("ACTIVE","DONE","CANCELED"))    REQUIRED
 }
+```
