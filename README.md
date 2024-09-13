@@ -7,13 +7,13 @@
 Steps to run the app:
 
 1. npm install
-2. npm run dbup -> creates postgresql DB in docker
+2. npm run dbup &nbsp;-> creates postgresql DB in docker
 
 debug mode: 
-3. npm run debug -> runs the app using ts-node
+<br/>&nbsp;3. npm run debug &nbsp;-> runs the app using ts-node
 
 build mode: 
-3. npm run build -> transpiles ts to commonJs in dist folder 4. npm run start -> runs transpiled app from dist folder
+<br/>&nbsp;3. npm run build &nbsp; -> transpiles ts to commonJs in dist folder <br/>&nbsp;4. npm run start &nbsp;-> runs transpiled app from dist folder
 
 
 
