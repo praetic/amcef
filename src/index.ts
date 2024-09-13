@@ -8,5 +8,5 @@ const port = serverConfig.port
 
 const httpServer = http.createServer(app)
 httpServer.listen(port, () => {
-  console.info(`HTTP Server running on port ${port}`)
+	console.info(`HTTP Server running on port ${port}`)
 })
